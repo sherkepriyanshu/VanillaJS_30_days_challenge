@@ -83,7 +83,7 @@ console.table(fifteen2);
 // const fullname = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
 // console.log(fullname);
 // console.table(fullname);
-
+console.log("map");
 const fullName = inventors.map(function (inventor) {
   return inventor.first + "@" + inventor.last;
 });
